@@ -11,6 +11,7 @@
         <module>webflux-server-r2dbc</module>
         <module>quarkus-server-vertx</module>
         <module>webmvc-server-jdbc</module>
+        <module>webflux-server-jdbc</module>
     </modules>
     <packaging>pom</packaging>
 

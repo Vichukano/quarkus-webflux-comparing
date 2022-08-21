@@ -35,10 +35,7 @@ select * from person;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="e137d632-b812-44ba-bdb7-0e7f378888c3" object-ref="consoles/Connection" />
-      <object connection-id="e137d632-b812-44ba-bdb7-0e7f378888c3" object-ref="schemas/public/tables/person" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="e137d632-b812-44ba-bdb7-0e7f378888c3" />
