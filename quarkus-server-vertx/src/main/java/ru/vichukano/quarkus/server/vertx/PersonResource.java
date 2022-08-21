@@ -17,11 +17,11 @@ public class PersonResource {
     private static final Logger LOGGER = Logger.getLogger(PersonResource.class.getName());
 
     @POST
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
     public Uni<Long> person(Person person) {
         LOGGER.info("Receive request: " + person);
         return Panache.withTransaction(person::persist)
-            .replaceWith(person.id)
+            .map(entityBase -> ((Person)entityBase).id)
             .onItem()
             .invoke(id -> LOGGER.info("Process person with id: " + id));
     }

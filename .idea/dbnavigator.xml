@@ -35,13 +35,17 @@ select * from person;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="e137d632-b812-44ba-bdb7-0e7f378888c3" object-ref="consoles/Connection" />
+      <object connection-id="e137d632-b812-44ba-bdb7-0e7f378888c3" object-ref="schemas/public/tables/person" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="e137d632-b812-44ba-bdb7-0e7f378888c3" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="e137d632-b812-44ba-bdb7-0e7f378888c3" dataset="public.person" active-filter-id="" />
+    <filter-actions connection-id="e137d632-b812-44ba-bdb7-0e7f378888c3" dataset="public.person" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="e137d632-b812-44ba-bdb7-0e7f378888c3" dataset="webflux.person" active-filter-id="EMPTY_FILTER" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -83,7 +87,7 @@ select * from person;]]></console>
           <driver-library value="" />
           <driver value="" />
           <url-type value="DATABASE" />
-          <host value="172.23.84.220" />
+          <host value="172.23.88.107" />
           <port value="5432" />
           <database value="test" />
           <type value="USER_PASSWORD" />
